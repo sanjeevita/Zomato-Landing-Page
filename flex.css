@@ -1,0 +1,35 @@
+.Flexbox-container{
+    height: 500px;
+    background-color: yellow;
+    border: black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.Flexbox-item{
+    background-color: aqua;
+    margin: 10px;
+    border: 2px black solid;
+    /* width: 100px; */
+
+}
+.Flexbox-item1{
+    flex-shrink: 0;
+    height: 50px;
+    width: 100px;
+    align-self: flex-end;
+
+}
+.Flexbox-item2{
+    height: 100px;
+    width: 300px;
+    flex-grow: 2;
+    flex-basis: 0;
+    
+}
+.Flexbox-item3{
+    height: 150px;
+    width: 300px;
+}

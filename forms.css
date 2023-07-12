@@ -1,0 +1,10 @@
+.position{
+    background-color: beige;
+    color: black;
+    position: relative;
+    bottom: 50px;
+    display: inline;
+}
+*{
+     box-sizing: border box;
+}
